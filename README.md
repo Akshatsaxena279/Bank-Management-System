@@ -29,10 +29,18 @@ It also includes a MySQL trigger that logs closed accounts into a separate table
 1. **Install Requirements**
    ```bash
    pip install pymysql
+   
+2.Set Up MySQL Database:
+    Create a database named bank
+    Execute the required CREATE TABLE scripts for:
+    master
+    trans
+    account_closed
+    Create the BEFORE DELETE trigger on the master table
 
 # Project Structure
 Banking system/
-├── bank.py              # Main Python program
-├── README.md            # Project overview
-└── Sql file             # mysql code(database for bank) 
+      ├── bank.py              # Main Python program
+      ├── README.md            # Project overview
+      └── Sql file             # mysql code(database for bank) 
 
