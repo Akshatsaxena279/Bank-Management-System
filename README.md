@@ -40,7 +40,7 @@ It also includes a MySQL trigger that logs closed accounts into a separate table
 
 # Project Structure
 Banking system/
-      ├── bank.py              # Main Python program
-      ├── README.md            # Project overview
-      └── Sql file             # mysql code(database for bank) 
+      ├──1. bank.py                       # Main Python program
+      ├──2. README.md                     # Project overview
+      └──3. Sql file                      # mysql code(database for bank) 
 
